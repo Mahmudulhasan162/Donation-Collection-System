@@ -1,0 +1,137 @@
+[
+    {
+      "id": "1",
+      "picture": "https://i.ibb.co/jZxQgNh/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052ff26",
+      "text_bg": "#0052FF",
+      "description": "Promoting healthcare in underserved communities.",
+      "price": 50
+    },
+    {
+      "id": "2",
+      "picture": "https://i.ibb.co/XFYs3QF/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#ff444a33",
+      "card_bg": "#ff444a26",
+      "text_bg": "#FF444A",
+      "description": "Supporting education initiatives for children in need.",
+      "price": 30
+    },
+    {
+      "id": "3",
+      "picture": "https://i.ibb.co/Bzy5xfG/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79c03f33",
+      "card_bg": "#79c23f26",
+      "text_bg": "#79C23F",
+      "description": "Collecting clothing for those in need.",
+      "price": 40
+    },
+    {
+      "id": "4",
+      "picture": "https://i.ibb.co/0s3MTcr/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#f8714733",
+      "card_bg": "#f8714726",
+      "text_bg": "#F87147",
+      "description": "Providing assistance for food security projects.",
+      "price": 25
+    },
+    {
+        "id": "5",
+        "picture": "https://i.ibb.co/0s3MTcr/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#f8714733",
+        "card_bg": "#f8714726",
+        "text_bg": "#F87147",
+        "description": "Supporting initiatives for sustainable food sources.",
+        "price": 45
+      },
+      {
+        "id": "6",
+        "picture": "https://i.ibb.co/Bzy5xfG/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#79c03f33",
+        "card_bg": "#79c23f26",
+        "text_bg": "#79C23F",
+        "description": "Distributing clothing items to those in need.",
+        "price": 20
+      },
+      {
+        "id": "7",
+        "picture": "https://i.ibb.co/XFYs3QF/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#ff444a33",
+        "card_bg": "#ff444a26",
+        "text_bg": "#FF444A",
+        "description": "Empowering students through quality education.",
+        "price": 30
+      },
+        
+    {
+      "id": "8",
+      "picture": "https://i.ibb.co/jZxQgNh/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052ff26",
+      "text_bg": "#0052FF",
+      "description": "Expanding healthcare access in rural areas.",
+      "price": 35
+    },
+   
+    {
+      "id": "9",
+      "picture": "https://i.ibb.co/jZxQgNh/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052ff33",
+      "card_bg": "#0052ff26",
+      "text_bg": "#0052FF",
+      "description": "Improving healthcare facilities in urban areas.",
+      "price": 30
+    },
+    {
+      "id": "10",
+      "picture": "https://i.ibb.co/XFYs3QF/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#ff444a33",
+      "card_bg": "#ff444a26",
+      "text_bg": "#FF444A",
+      "description": "Ensuring access to quality education for all.",
+      "price": 40
+    },
+    {
+      "id": "11",
+      "picture": "https://i.ibb.co/Bzy5xfG/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79c03f33",
+      "card_bg": "#79c23f26",
+      "text_bg": "#79C23F",
+      "description": "Promoting warmth with donated clothing items.",
+      "price": 35
+    },
+    {
+      "id": "12",
+      "picture": "https://i.ibb.co/0s3MTcr/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#f8714733",
+      "card_bg": "#f8714726",
+      "text_bg": "#F87147",
+      "description": "Contributing to sustainable solutions for food security.",
+      "price": 25
+    }
+  ]
+  
