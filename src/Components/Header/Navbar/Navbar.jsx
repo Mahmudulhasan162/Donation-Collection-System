@@ -11,7 +11,7 @@ const Navbar = () => {
         <img className='w-60' src='https://i.ibb.co/RYSzmjR/Logo.png' alt="" />
        </div>
 
-        <ul className="flex gap-5 font-bold">
+        <ul className="flex gap-5 font-normal">
           <li>
             <NavLink
               to="/"
