@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from "sweetalert";
 
 
 const CardDetails = () => {
@@ -15,25 +16,42 @@ const CardDetails = () => {
     if(!card){
         return <div>loading</div>
     }
-    const handleDonationDetails = () =>{
+    const handleDonationDetails = () => {
+        const DonationsArray = [];
+    
+        const Donation = JSON.parse(localStorage.getItem("donations"));
+    
+        if (!Donation) {
+          DonationsArray.push(card);
+          localStorage.setItem("donations", JSON.stringify(DonationsArray));
+          swal("Good job!", "You've donated successfully!", "success");
+        } 
         
-        const DonationArray =[];
-        const Donations= JSON.parse(localStorage.getItem('donation'))
-
-        if(!Donations){
-            DonationArray.push(card)
-            localStorage.setItem('donation',JSON.stringify(DonationArray))
-        }else{
-            const isExist = Donations.find(Card => Card.id ===id);
-
-            if(!isExist){
-            DonationArray.push(...Donations,card);
-            localStorage.setItem('donation', JSON.stringify(DonationArray))
-            }else{
-                alert("Already Added")
-            }
+        else {
+    
+    
+          const isExits = Donation.find((card) => card.id === id);
+    
+          
+          if (!isExits) {
+    
+            DonationsArray.push(...Donation, card);
+            localStorage.setItem("donations", JSON.stringify(DonationsArray));
+            swal("Good job!", "You've donated successfully!", "success");
+           
+          } else {
+            swal("Sorry", "You had donated it before", "error");
+          }
+    
+        
+    
+    
         }
-    }
+    
+    
+    
+        // localStorage.setItem('test',JSON.stringify([{name:"hasib"},{name:"ph"}]))
+      };
     return (
         <div className="relative" >
             <div className="relative">
