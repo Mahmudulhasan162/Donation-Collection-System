@@ -28,8 +28,8 @@ const Statistics = () => {
 
 
    const data = [
-    {name: `Your Donation:`, value: percentage},
-    {name: `Total Donation:`, value: donation},
+    {name: `Your Donation`, value: percentage},
+    {name: `Total Donation`, value: donation},
    ];
 
    const COLORS = ["#00C49F","#FF444A"]
@@ -40,7 +40,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
   const y = cy + radius * Math.sin(-midAngle * RADIAN);
 
   return (
-    <text className="text-4xl font-bold text-center" x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="Central">
+    <text className="text-3xl font-bold text-center" x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="Central">
       {`${(percent * 100).toFixed(1)}%`}
     </text>
   );
@@ -49,12 +49,12 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
         <div className="mb-14">
            <ResponsiveContainer width="100%" height={500}>
         <PieChart className="text-white">
-          <Pie
+          <Pie 
             data={data}
             cx="50%"
             cy="50%"
             labelLine={false}
-            outerRadius={200}
+            outerRadius={150}
             fill="#8884d8"
             dataKey="value"
             label={renderCustomizedLabel}

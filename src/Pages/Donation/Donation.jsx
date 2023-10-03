@@ -13,7 +13,9 @@ useEffect(()=>{
     if(Donation){
     setDonation(Donation);
     }else{
-        setNoFound('no donation')
+        setNoFound(<div className="flex justify-center items-center my-16">
+            <h1 className=" text-3xl md:text-5xl font-bold">No Donation Yet😥</h1>
+        </div>)
     }
 
 },[])

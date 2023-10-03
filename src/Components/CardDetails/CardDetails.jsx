@@ -42,15 +42,7 @@ const CardDetails = () => {
           } else {
             swal("Sorry", "You had donated it before", "error");
           }
-    
-        
-    
-    
         }
-    
-    
-    
-        // localStorage.setItem('test',JSON.stringify([{name:"hasib"},{name:"ph"}]))
       };
     return (
         <div className="relative" >
@@ -60,7 +52,7 @@ const CardDetails = () => {
                 <div className=" relative bottom-32 left-0 w-full h-32 bg-black opacity-50">
                 
                 </div>
-                <button style={{backgroundColor: card.text_bg}} className="text-white w-max px-6 py-4 text-xl font-semibold relative bottom-56 left-10" onClick={handleDonationDetails}>Donate $290</button>
+                <button style={{backgroundColor: card.text_bg}} className="text-white w-max px-3 py-1 lg:px-6 lg:py-4 text-xl font-semibold relative bottom-56 left-10" onClick={handleDonationDetails}>Donate $290</button>
                 </div>
             </div>
             <div>

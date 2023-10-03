@@ -6,6 +6,7 @@ import Home from '../../Pages/Home/Home';
 import CardDetails from '../CardDetails/CardDetails';
 import Donation from '../../Pages/Donation/Donation';
 import Statistics from '../../Pages/Statistics/Statistics';
+import Error from '../Error/Error';
 
 
 const myCreatedRoute =  createBrowserRouter([
@@ -13,6 +14,7 @@ const myCreatedRoute =  createBrowserRouter([
 
         path : "/",
         element : <MainLayout></MainLayout>,
+        errorElement: <Error></Error>,
      
         children : [
            {
