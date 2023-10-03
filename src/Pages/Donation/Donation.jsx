@@ -17,7 +17,7 @@ useEffect(()=>{
     }
 
 },[])
-console.log(donation);
+
     return (
         <div>
             {
@@ -29,7 +29,7 @@ console.log(donation);
                         }
                     </div>
                     {
-                        isShow || (<button onClick={()=> setIsShow(!isShow)} className="text-white rounded-lg px-4 py-2 bg-[#009444] flex mb-16 mx-auto" >See All</button>)
+                        donation?.length > 4 && <button onClick={()=> setIsShow(!isShow)} className="text-white rounded-lg px-4 py-2 bg-[#009444] flex mb-16 mx-auto" >{isShow?  '': "See All"}</button>
                     }
                 </div>
             }
